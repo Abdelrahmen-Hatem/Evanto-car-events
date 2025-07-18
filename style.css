@@ -1,0 +1,161 @@
+ @import url('https://fonts.cdnfonts.com/css/poppins');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: beige;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    
+}
+.logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.navigation a{
+   text-decoration: none;
+   color: rgb(46, 29, 29);
+   text-transform: initial;
+   font-size: medium;
+   font-weight: 400;
+   padding: 20px;
+}
+.navigation a:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+section{
+    padding: 200px 100px;
+ 
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+   
+    align-items: center;
+    background: url(AdobeStock_477245314-2000x1333.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.main h2{
+    color:rgb(228, 222, 213) ;
+    font-size: 1em;
+    font-weight: 500;
+
+}
+.main h2 span {
+    color:rgb(37, 35, 35);
+    font-size: 2.6em;
+    font-style: initial;
+    margin-top: 10px;
+}
+.main h3{
+    color: rgb(228, 222, 213);
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-btn {
+    color: #f1f1f1;
+    background-color: rgb(39, 39, 39);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s;
+}
+.main-btn:hover{
+background-color: black;
+transform: scale(1.1);
+}
+.social-icons a{
+    color: white;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+.card .icon {
+    color: black;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.footer {
+    background-color:black;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
